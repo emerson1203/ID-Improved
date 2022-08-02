@@ -96,6 +96,9 @@
                                     <color key="baseForegroundColor" red="0.99959379429999995" green="0.65769082310000004" blue="0.21815711260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" red="0.22163254020000001" green="0.37162691349999999" blue="0.44276541470000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="dtN-Pi-FJV" kind="show" id="ceN-Xh-NBG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -113,7 +116,7 @@
             <objects>
                 <viewController id="dtN-Pi-FJV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SF5-Jo-oX1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="pI2-1X-s6e">
@@ -151,7 +154,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxh-qn-jVa">
-                                <rect key="frame" x="36" y="793" width="151" height="38"/>
+                                <rect key="frame" x="36" y="776" width="151" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.22163254020000001" green="0.37162691349999999" blue="0.44276541470000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -159,9 +162,12 @@
                                     <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
                                     <color key="baseForegroundColor" red="0.65430492159999998" green="0.80859500169999998" blue="0.79716688390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="mNZ-QB-9uS" kind="show" id="nA5-JM-Pc0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XEK-dv-lYE">
-                                <rect key="frame" x="272" y="793" width="109" height="38"/>
+                                <rect key="frame" x="272" y="776" width="109" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.22163254020000001" green="0.37162691349999999" blue="0.44276541470000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -177,6 +183,7 @@
                         <viewLayoutGuide key="safeArea" id="iru-ah-Rxr"/>
                         <color key="backgroundColor" red="0.65430492159999998" green="0.80859500169999998" blue="0.79716688390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="g2j-J9-i5d"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29X-Zn-ubs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -187,11 +194,12 @@
             <objects>
                 <viewController id="mNZ-QB-9uS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="noU-c8-XI2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="tmA-MC-XHu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="HrL-Gv-mbP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGZ-Dv-B8V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
